@@ -10,9 +10,4 @@
 
 @implementation AFBBoolPropertyTestModel
 
-- (id)boolPropertyAsObject
-{
-    return [self valueForKey:@"boolProperty"];
-}
-
 @end

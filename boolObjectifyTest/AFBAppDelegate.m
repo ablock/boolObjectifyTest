@@ -25,7 +25,7 @@
 {
     AFBBoolPropertyTestModel *model = [AFBBoolPropertyTestModel new];
     model.boolProperty = YES;
-    NSLog(@"BOOL property class: %@", [[model boolPropertyAsObject] class]);
+    NSLog(@"BOOL property class: %@", [[model valueForKey:@"boolProperty"] class]);
 }
 
 @end

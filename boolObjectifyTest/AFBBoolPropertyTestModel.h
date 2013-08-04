@@ -11,6 +11,5 @@
 @interface AFBBoolPropertyTestModel : NSObject
 
 @property (nonatomic) BOOL boolProperty;
-- (id)boolPropertyAsObject;
 
 @end
